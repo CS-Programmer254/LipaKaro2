@@ -1,0 +1,6 @@
+@LipaKaro2_HostAddress = http://localhost:5282
+
+GET {{LipaKaro2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
