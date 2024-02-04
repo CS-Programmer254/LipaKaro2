@@ -31,7 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbsaBank.Microservice.Appli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbsaBank.Microservice.Infrastructure", "AbsaBank.Microservice.Infrastructure\AbsaBank.Microservice.Infrastructure.csproj", "{A3CD6E11-B9A7-4AB4-BD50-F8A2C67CE675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsaBank.Microservice.API", "AbsaBank.Microservice.API\AbsaBank.Microservice.API.csproj", "{465A16C6-BA37-4956-851D-BDFFDC197122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbsaBank.Microservice.API", "AbsaBank.Microservice.API\AbsaBank.Microservice.API.csproj", "{465A16C6-BA37-4956-851D-BDFFDC197122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.API", "Alerts.Microservice.API\Alerts.Microservice.API.csproj", "{C11198F0-F2E7-4045-90B5-AF468A25FF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Domain", "Alerts.Microservice.Domain\Alerts.Microservice.Domain.csproj", "{E92AE7B5-7159-4C25-A532-4D8EEEE434CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Application", "Alerts.Microservice.Application\Alerts.Microservice.Application.csproj", "{D8DB5101-4909-437B-8CAE-DF745A5DD214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Infrastructure", "Alerts.Microservice.Infrastructure\Alerts.Microservice.Infrastructure.csproj", "{708E1EA1-548A-4DB9-B065-52A2B3B57A49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +63,22 @@ Global
 		{465A16C6-BA37-4956-851D-BDFFDC197122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{465A16C6-BA37-4956-851D-BDFFDC197122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{465A16C6-BA37-4956-851D-BDFFDC197122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11198F0-F2E7-4045-90B5-AF468A25FF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11198F0-F2E7-4045-90B5-AF468A25FF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11198F0-F2E7-4045-90B5-AF468A25FF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11198F0-F2E7-4045-90B5-AF468A25FF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92AE7B5-7159-4C25-A532-4D8EEEE434CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92AE7B5-7159-4C25-A532-4D8EEEE434CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92AE7B5-7159-4C25-A532-4D8EEEE434CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92AE7B5-7159-4C25-A532-4D8EEEE434CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DB5101-4909-437B-8CAE-DF745A5DD214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DB5101-4909-437B-8CAE-DF745A5DD214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DB5101-4909-437B-8CAE-DF745A5DD214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DB5101-4909-437B-8CAE-DF745A5DD214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708E1EA1-548A-4DB9-B065-52A2B3B57A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708E1EA1-548A-4DB9-B065-52A2B3B57A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708E1EA1-548A-4DB9-B065-52A2B3B57A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708E1EA1-548A-4DB9-B065-52A2B3B57A49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +95,10 @@ Global
 		{BB6ACCCA-ED3D-4ACE-8907-116A064732D9} = {C9E927C5-8199-4DB7-81FE-3FB80E532907}
 		{A3CD6E11-B9A7-4AB4-BD50-F8A2C67CE675} = {C9E927C5-8199-4DB7-81FE-3FB80E532907}
 		{465A16C6-BA37-4956-851D-BDFFDC197122} = {C9E927C5-8199-4DB7-81FE-3FB80E532907}
+		{C11198F0-F2E7-4045-90B5-AF468A25FF37} = {BE6B384A-654B-43C7-83BD-FBB4AFD9216C}
+		{E92AE7B5-7159-4C25-A532-4D8EEEE434CF} = {BE6B384A-654B-43C7-83BD-FBB4AFD9216C}
+		{D8DB5101-4909-437B-8CAE-DF745A5DD214} = {BE6B384A-654B-43C7-83BD-FBB4AFD9216C}
+		{708E1EA1-548A-4DB9-B065-52A2B3B57A49} = {BE6B384A-654B-43C7-83BD-FBB4AFD9216C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0151954F-AB8B-4CDB-9D0A-01372005C577}
